@@ -1,0 +1,4 @@
+- insert:
+    - id: campus-guard
+      name: dsh-campus-guard
+      config: {}

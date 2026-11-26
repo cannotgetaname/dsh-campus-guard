@@ -1,0 +1,17 @@
+{
+  "name": "dsh-campus-guard",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Watch which network you are on and whether campus-only databases are still reachable, so a literature run fails loudly before it wanders off campus.",
+  "keywords": ["dsh", "plugin", "campus-network", "ip", "literature", "connectivity"],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "lib", "cordis.patch.yml", "locale", "icon.svg", "README.md", "docs"],
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node test/run.mjs" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

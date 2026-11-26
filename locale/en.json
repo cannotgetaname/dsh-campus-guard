@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Campus network guard",
+    "description": "Reports the network the machine is on and whether it still matches a recorded campus network, so literature runs fail loudly instead of quietly losing subscription access.",
+    "detail": "docs/DETAIL.md"
+  }
+}
